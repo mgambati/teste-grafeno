@@ -16,11 +16,10 @@ export const Header: FC = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="/">
-              Home
-            </a>
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            Matheus Gambati -{" "}
+            <a href="https://www.linkedin.com/in/matheusgambati/">LinkedIn</a>
           </li>
         </ul>
       </div>
