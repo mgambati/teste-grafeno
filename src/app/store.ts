@@ -1,7 +1,10 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import { pokemonsReducer } from "../features/pokemons/slices/pokemonsSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    pokemons: pokemonsReducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
